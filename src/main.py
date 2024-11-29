@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import threading
 import socket
-import Classification
+import src.Classification as Classification
 import json
 import time
 import os
@@ -19,7 +19,7 @@ t_start = time.time()
 
 errcount = 0
 
-logf = open('/home/pi/Desktop/HappyNewEar/log.txt', 'wt')
+logf = open('', 'wt')
 
 making_noise = 0
 
